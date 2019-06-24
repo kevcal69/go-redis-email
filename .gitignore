@@ -1,3 +1,4 @@
+# GO gitignore
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -10,3 +11,20 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# node gitignore
+.DS_Store
+node_modules/
+dist/
+npm-debug.log
+yarn-error.log
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+
+*/templates/public/**
